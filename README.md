@@ -174,11 +174,15 @@ This enables consistent customer-level analysis across all metrics.
 ### KPIs
 
 ![KPI1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI1.png)
+
+
 ![KPI2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI.png)
 
 ### Filters & Slicers
 
 ![Slicer1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer1.png)
+
+
 ![Slicer2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer.png)
 
 ### Operational & Behavioural Insights
@@ -268,6 +272,7 @@ This enables consistent customer-level analysis across all metrics.
 Data Analyst | Power BI | Python | SQL
 
 LinkedIn: https://linkedin.com/in/israel-obiomah-6ba609253
+
 GitHub: https://github.com/teejay7729
 
  
