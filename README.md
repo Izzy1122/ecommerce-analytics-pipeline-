@@ -114,6 +114,8 @@ This enables customer-level analysis across the entire model.
 
 ## 📍 Page 1 — E‑commerce Performance Overview
 
+![Dashboard1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboad1.png)
+
 This page provides a high‑level view of marketplace performance.
 
 ### **KPIs**
@@ -136,6 +138,8 @@ To give stakeholders a quick understanding of overall business performance and o
 ---
 
 ## 📍 Page 2 — Customer & Product Insights
+
+![Dashboard](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboard.png)
 
 This page focuses on customer demographics, product behaviour, and payment trends.
 
