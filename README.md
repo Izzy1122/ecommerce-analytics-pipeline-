@@ -170,9 +170,31 @@ To understand who the customers are, what they buy, and how they pay.
 
 ## KPIs
 
-![KPI1]()
+![KPI1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI1.png)
 
-![KPI]()
+![KPI](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI.png)
+
+## Slicers
+
+![Slicer1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer1.png)
+
+![Slicer](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer.png)
+
+## Delivery Performance by State (Time vs Late %)
+
+![DeliveryPerformance](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/DeliveryPerformance.png)
+
+## Payment Type Breakdown
+
+![PaymentBreakdown](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/PaymentBreakdown.png)
+
+## Category Share of Oders
+
+![CategoryOrders](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/CategoryOrders.png)
+
+## Total Orders by State
+![StateOrder](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/StateOrder.png)
+
 
 ---
 
@@ -241,11 +263,5 @@ LinkedIn: *[Add link]*
 Portfolio: *[Add link]*  
 
 
-
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/teejay7729)
