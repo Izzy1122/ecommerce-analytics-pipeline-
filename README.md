@@ -259,8 +259,7 @@ To understand who the customers are, what they buy, and how they pay.
 # 📬 Contact
 
 **Teejay — Data Analyst | Power BI | Python | SQL**  
-LinkedIn: *[Add link]*  
-Portfolio: *[Add link]*  
+LinkedIn: [linkedin.com/in/israel-obiomah-6ba609253] 
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
