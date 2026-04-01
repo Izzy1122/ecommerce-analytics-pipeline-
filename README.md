@@ -193,6 +193,7 @@ This enables consistent customer-level analysis across all metrics.
   ![Category](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/CategoryOrders.png)
 
 * Orders by State
+
   ![State](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/StateOrder.png)
 
 ---
