@@ -258,7 +258,7 @@ To understand who the customers are, what they buy, and how they pay.
 
 # 📬 Contact
 
-**Teejay — Data Analyst | Power BI | Python | SQL**  
+**Israel Obiomah — Data Engineer/Analyst | Power BI | Python | SQL**  
 LinkedIn: [linkedin.com/in/israel-obiomah-6ba609253] 
 
 
