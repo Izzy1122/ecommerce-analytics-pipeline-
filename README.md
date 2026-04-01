@@ -1,265 +1,275 @@
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
+# 📊 E-Commerce Analytics Dashboard (Power BI)
 
+A production-style, two-page Power BI dashboard analysing marketplace performance using the Brazilian Olist e-commerce dataset.
 
-# 📊 E‑Commerce Analytics Dashboard (Power BI)
-
-A two‑page Power BI dashboard analysing sales performance, customer behaviour, product trends, and payment insights using the Brazilian Olist e‑commerce dataset.  
-This project demonstrates end‑to‑end BI capability: data modelling, DAX, visual analytics, and insight communication.
-
----
-
-# 📚 Table of Contents
-1. [Project Summary](#project-summary)
-2. [Objectives](#objectives)
-3. [Architecture](#architecture)
-4. [Data Model](#data-model)
-5. [Dashboard Pages](#dashboard-pages)
-   - [Page 1 — E‑commerce Performance Overview](#page-1--e-commerce-performance-overview)
-   - [Page 2 — Customer & Product Insights](#page-2--customer--product-insights)
-6. [Key Insights](#key-insights)
-7. [Tools & Technologies](#tools--technologies)
-8. [Repository Structure](#repository-structure)
-9. [What I Learned](#what-i-learned)
-10. [Contact](#contact)
+This project demonstrates end-to-end business intelligence capability, including data modelling, transformation, DAX development, and insight delivery for stakeholders.
 
 ---
 
-# 🚀 Project Summary
+## 📚 Table of Contents
 
-This project provides a comprehensive analytical view of an e‑commerce marketplace, focusing on:
-
-- Sales performance  
-- Customer distribution  
-- Product category behaviour  
-- Payment preferences  
-- Delivery performance  
-- Order value patterns  
-
-The dashboard is designed for business stakeholders who need a clear, actionable view of marketplace performance.  
-It demonstrates strong BI skills across data modelling, DAX, visual storytelling, and insight communication.
-
----
-
-# 🎯 Objectives
-
-- Build a clean, professional **Power BI dashboard** using a star schema  
-- Analyse customer behaviour across states and cities  
-- Identify top‑performing product categories  
-- Understand payment method distribution  
-- Explore order value and delivery time patterns  
-- Present insights clearly and visually for decision‑making  
+1. Project Overview
+2. Business Objectives
+3. Data Architecture
+4. Data Model
+5. Dashboard Overview
+6. Key Insights
+7. Tools & Technologies
+8. Repository Structure
+9. Key Learnings
+10. Contact
 
 ---
 
-# 🧱 Architecture
+## 🚀 Project Overview
+
+This dashboard delivers a comprehensive analytical view of an e-commerce marketplace, covering:
+
+* Revenue and order performance
+* Customer distribution and behaviour
+* Product category trends
+* Payment method usage
+* Delivery performance and logistics
+* Order value distribution
+
+The solution is designed for business stakeholders who require clear, actionable insights to support commercial and operational decision-making.
+
+---
+
+## 🎯 Business Objectives
+
+* Develop a scalable **star schema data model** optimised for reporting
+* Analyse customer behaviour across geographic regions
+* Identify high-performing product categories
+* Evaluate payment method distribution and trends
+* Assess delivery performance and fulfilment efficiency
+* Communicate insights through intuitive, executive-level dashboards
+
+---
+
+## 🧱 Data Architecture
 
 The project follows a standard BI pipeline:
 
+```
+Raw CSV Files
+    ↓
 
-## 🧱 Architecture
 
-- 📁 **Raw CSV Files**  
-  ↓  
-- 🧹 **Power Query (Cleaning & Transformation)**  
-  ↓  
-- 🗂️ **Star Schema Data Model**  
-  ↓  
-- 📐 **DAX Measures & KPIs**  
-  ↓  
-- 📊 **Power BI Visualisation Layer**  
-  ↓  
-- 💡 **Insights & Storytelling**
+Power Query (Data Cleaning & Transformation)
+    ↓
 
+
+Star Schema Data Model
+    ↓
+
+
+DAX Measures & KPI Layer
+    ↓
+
+
+Power BI Visualisation
+    ↓
+
+
+Business Insights & Reporting
+```
 
 ### Key Transformations
-- Cleaned and normalised customer, product, and order tables  
-- Standardised geolocation data  
-- Built dimension tables  
-- Created fact tables for orders, items, and payments  
-- Added DAX measures for KPIs and aggregations  
+
+* Cleaned and standardised customer, product, and order datasets
+* Normalised geolocation data for accurate regional analysis
+* Built dimension and fact tables for scalability
+* Created calculated measures for KPIs and aggregations using DAX
 
 ---
 
-# 🗂️ Data Model
+## 🗂️ Data Model
 
-The model uses a **star schema** for clarity and performance.
+A **star schema** was implemented to ensure performance, flexibility, and maintainability.
 
-### **Fact Tables**
-- `fact_order` — order-level data  
-- `fact_order_items` — product-level order details  
-- `fact_payments` — payment transactions  
+### Fact Tables
 
-### **Dimension Tables**
-- `dim_customers`  
-- `dim_products`  
-- `dim_sellers`  
-- `dim_geolocation`  
+* `fact_orders` — order-level data
+* `fact_order_items` — product-level transactions
+* `fact_payments` — payment records
 
-### **Key Relationship**
-dim_customers[customer_id] 1 → * fact_order[customer_id]
+### Dimension Tables
 
+* `dim_customers`
+* `dim_products`
+* `dim_sellers`
+* `dim_geolocation`
 
-This enables customer-level analysis across the entire model.
+### Key Relationship
+
+```
+dim_customers[customer_id] 1 → * fact_orders[customer_id]
+```
+
+This enables consistent customer-level analysis across all metrics.
 
 ---
 
-# 📊 Dashboard Pages
+## 📊 Dashboard Overview
 
-## 📍 Page 1 — E‑commerce Performance Overview
+### 📍 Page 1 — Performance Overview
 
 ![Dashboard1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboad1.png)
 
-This page provides a high‑level view of marketplace performance.
+**Purpose:** Provide a high-level view of business performance.
 
-### **KPIs**
-- Total Revenue  
-- Total Orders  
-- Average Review Score  
-- Total Sellers  
-- Total Customers  
+**Core KPIs**
 
-### **Visuals**
-- Revenue by Category  
-- Orders by State (Map)  
-- Orders by Month  
-- Delivery Time Distribution  
-- Review Score Distribution  
+* Total Revenue
+* Total Orders
+* Average Review Score
+* Total Customers
+* Total Sellers
 
-### **Purpose**
-To give stakeholders a quick understanding of overall business performance and operational efficiency.
+**Key Visuals**
+
+* Revenue by Product Category
+* Orders by State (Geographic Map)
+* Monthly Order Trends
+* Delivery Time Distribution
+* Review Score Distribution
 
 ---
 
-## 📍 Page 2 — Customer & Product Insights
+### 📍 Page 2 — Customer & Product Insights
 
-![Dashboard](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboard.png)
+![Dashboard2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboard.png)
 
-This page focuses on customer demographics, product behaviour, and payment trends.
+**Purpose:** Analyse customer behaviour, product performance, and payment trends.
 
-### **Customer KPIs**
-- Total Customers  
-- Orders per Customer  
-- Avg Orders per Customer  
-- Customer Distribution  
+**Customer Analysis**
 
-### **Customer Segmentation**
-- Top States by Customers  
-- Top Cities by Customers  
+* Customer distribution by state and city
+* Orders per customer
+* Customer concentration metrics
 
-### **Product Insights**
-- Top Categories by Revenue  
-- Category Share of Orders  
-- Top Products (optional extension)  
+**Product Analysis**
 
-### **Payment & Order Behaviour**
-- Payment Type Breakdown  
-- Order Value Distribution  
+* Top categories by revenue
+* Category share of total orders
 
-### **Purpose**
-To understand who the customers are, what they buy, and how they pay.
+**Payment & Behaviour**
 
+* Payment method breakdown
+* Order value distribution
 
-📍More Visuals
+---
 
-## KPIs
+## 📸 Additional Visuals
+
+### KPIs
 
 ![KPI1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI1.png)
+![KPI2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI.png)
 
-![KPI](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI.png)
-
-## Slicers
+### Filters & Slicers
 
 ![Slicer1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer1.png)
+![Slicer2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer.png)
 
-![Slicer](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer.png)
+### Operational & Behavioural Insights
 
-## Delivery Performance by State (Time vs Late %)
+* Delivery Performance by State
+  ![Delivery](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/DeliveryPerformance.png)
 
-![DeliveryPerformance](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/DeliveryPerformance.png)
+* Payment Type Breakdown
+  ![Payment](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/PaymentBreakdown.png)
 
-## Payment Type Breakdown
+* Category Share of Orders
+  ![Category](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/CategoryOrders.png)
 
-![PaymentBreakdown](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/PaymentBreakdown.png)
-
-## Category Share of Oders
-
-![CategoryOrders](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/CategoryOrders.png)
-
-## Total Orders by State
-![StateOrder](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/StateOrder.png)
-
+* Orders by State
+  ![State](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/StateOrder.png)
 
 ---
 
-# 🔍 Key Insights
+## 🔍 Key Insights
 
-## 👥 Customer Insights
-- 99K unique customers in the dataset  
-- All customers placed **one order** (dataset limitation)  
-- Customer demand is concentrated in **São Paulo**, **Rio de Janeiro**, and **Belo Horizonte**  
-- Strong urban dominance in the Southeast region  
+### 👥 Customer Insights
 
-## 🛍️ Product Insights
-- **beleza_saude** is the highest‑revenue category  
-- Other strong categories include **relogios_presentes**, **cama_mesa_banho**, and **esporte_lazer**  
-- Category distribution shows a long tail of niche product groups  
+* ~99K unique customers analysed
+* Majority of customers placed a single order (dataset limitation)
+* Demand is highly concentrated in **São Paulo**, **Rio de Janeiro**, and **Belo Horizonte**
+* Strong regional dominance in Southeast Brazil
 
-## 💳 Payment Behaviour
-- **Credit card** dominates with 75% of all transactions  
-- **Boleto** accounts for ~20%  
-- Voucher and debit card usage is minimal  
+### 🛍️ Product Insights
 
-## 🚚 Delivery & Order Value
-- Most orders fall under **£200**  
-- Delivery times cluster between **10–20 days**  
-- Longer delivery times correlate with inter‑state shipments  
+* **Beleza & Saúde** is the highest revenue-generating category
+* Other top categories include **Relógios & Presentes**, **Cama, Mesa & Banho**, and **Esporte & Lazer**
+* Long-tail distribution across niche categories
 
----
+### 💳 Payment Behaviour
 
-# 🛠️ Tools & Technologies
+* Credit card accounts for ~75% of transactions
+* Boleto represents ~20%
+* Minimal usage of vouchers and debit cards
 
-- **Power BI Desktop**  
-- **Power Query**  
-- **DAX**  
-- **Star Schema Modelling**  
-- **GitHub** for version control  
-- **CSV / Flat Files**  
+### 🚚 Delivery & Order Value
+
+* Majority of orders fall below £200
+* Delivery times typically range between 10–20 days
+* Longer delivery durations are associated with inter-state shipping
 
 ---
 
-# 📁 Repository Structure
+## 🛠️ Tools & Technologies
 
-📦 ecommerce-analytics-dashboard/ 
-├── 📁 data/          # Raw and cleaned datasets 
-├── 📁 Pipeline/      # Data- cleaning/ingestion , transformation
-├── 📁 pbix/          # Power BI project file 
-├── 📁 Visuals/       # Dashboard screenshots │ 
-└── 📄 README.md      # Project documentation
-
----
-
-# 🧠 What I Learned
-
-- How to design a clean, scalable star schema  
-- How to build KPI measures using DAX  
-- How to structure a multi‑page dashboard  
-- How to communicate insights visually  
-- How to identify dataset limitations and adjust analysis  
-- How to create a portfolio‑ready BI project  
+* Power BI Desktop
+* Power Query (ETL)
+* DAX (Data Analysis Expressions)
+* Python (Pandas, NumPy)
+* Star Schema Modelling
+* Git & GitHub
 
 ---
 
-# 📬 Contact
+## 📁 Repository Structure
 
-**Israel Obiomah — Data Engineer/Analyst | Power BI | Python | SQL**  
-LinkedIn: [linkedin.com/in/israel-obiomah-6ba609253] 
+```
+📦 ecommerce-analytics-dashboard/
+├── 📁 data/          # Raw and processed datasets
+├── 📁 pipeline/      # Data cleaning and transformation scripts
+├── 📁 pbix/          # Power BI dashboard file
+├── 📁 visuals/       # Dashboard screenshots
+└── 📄 README.md
+```
+
+---
+
+## 🧠 Key Learnings
+
+* Designed a scalable and efficient star schema data model
+* Developed reusable KPI measures using DAX
+* Built a structured, multi-page BI dashboard
+* Translated raw data into actionable business insights
+* Identified dataset limitations and adjusted analysis accordingly
+* Delivered a portfolio-ready analytics project aligned with industry standards
+
+---
+
+## 📬 Contact
+
+**Israel Obiomah**
+Data Analyst | Power BI | Python | SQL
+
+LinkedIn: https://linkedin.com/in/israel-obiomah-6ba609253
+GitHub: https://github.com/teejay7729
+
+ 
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
