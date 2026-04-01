@@ -165,6 +165,15 @@ This page focuses on customer demographics, product behaviour, and payment trend
 ### **Purpose**
 To understand who the customers are, what they buy, and how they pay.
 
+
+📍More Visuals
+
+## KPIs
+
+![KPI1]()
+
+![KPI]()
+
 ---
 
 # 🔍 Key Insights
