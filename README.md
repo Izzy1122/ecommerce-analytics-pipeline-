@@ -123,7 +123,7 @@ This enables consistent customer-level analysis across all metrics.
 
 ### 📍 Page 1 — Performance Overview
 
-![Dashboard1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboad1.png)
+![Dashboard1](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/Dashboad1.png)
 
 **Purpose:** Provide a high-level view of business performance.
 
@@ -147,7 +147,7 @@ This enables consistent customer-level analysis across all metrics.
 
 ### 📍 Page 2 — Customer & Product Insights
 
-![Dashboard2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Dashboard.png)
+![Dashboard2](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/Dashboard.png)
 
 **Purpose:** Analyse customer behaviour, product performance, and payment trends.
 
@@ -173,32 +173,32 @@ This enables consistent customer-level analysis across all metrics.
 
 ### KPIs
 
-![KPI1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI1.png)
+![KPI1](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/KPI1.png)
 
 
-![KPI2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/KPI.png)
+![KPI2](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/KPI.png)
 
 ### Filters & Slicers
 
-![Slicer1](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer1.png)
+![Slicer1](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/Slicer1.png)
 
 
-![Slicer2](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/Slicer.png)
+![Slicer2](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/Slicer.png)
 
 ### Operational & Behavioural Insights
 
 * Delivery Performance by State
-  ![Delivery](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/DeliveryPerformance.png)
+  ![Delivery](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/DeliveryPerformance.png)
 
 * Payment Type Breakdown
-  ![Payment](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/PaymentBreakdown.png)
+  ![Payment](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/PaymentBreakdown.png)
 
 * Category Share of Orders
-  ![Category](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/CategoryOrders.png)
+  ![Category](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/CategoryOrders.png)
 
 * Orders by State
 
-  ![State](https://raw.githubusercontent.com/teejay7729/ecommerce-analytics-pipeline/refs/heads/main/Visuals/StateOrder.png)
+  ![State](https://raw.githubusercontent.com/Izzy1122/ecommerce-analytics-pipeline-/refs/heads/main/Visuals/StateOrder.png)
 
 ---
 
@@ -273,10 +273,10 @@ Data Analyst | Power BI | Python | SQL
 
 LinkedIn: https://linkedin.com/in/israel-obiomah-6ba609253
 
-GitHub: https://github.com/teejay7729
+GitHub: https://github.com/Izz1122
 
  
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/teejay7729)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izzy1122)
